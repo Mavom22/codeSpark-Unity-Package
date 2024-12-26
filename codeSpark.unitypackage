@@ -1,0 +1,20 @@
+/* !
+* tingle.js
+* @author  robin_parisi
+* @version 0.15.1
+* @url
+*/
+
+<!-- Unity content -->
+  <div id="unity-container" class="webgl-content" style="height: 100%; background-color: rgb(4, 30, 58);">
+    <div class="container">
+      <canvas id="gameContainer" width=750 height=450 style="width: 750px; height: 450px;"></canvas>
+    </div>
+    <div id="unity-loading-bar">
+      <div class="loader-logo"></div>
+      <div id="unity-progress-bar-empty">
+        <div id="unity-progress-bar-full"></div>
+      </div>
+    </div>
+    <div id="unity-warning"> </div>
+  </div>
